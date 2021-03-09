@@ -3,13 +3,17 @@
 ~$*.doc*
 Backup of *.doc*
 
-# Ignore contents of private folder, with the exception of its readme file
-private/**
-!private/readme.md
+# Ignore contents of derived private folder, with the exception of its readme file
+data/derived/private/**
+!readme.md
+
+# Ignore contents of raw private folder, with the exception of its readme file
+data/raw/private/**
+!readme.md
 
 # Ignore contents of scratch folder, with the exception of its readme file
-scratch/**
-!scratch/readme.md
+data/scratch/**
+!readme.md
 
 # Ignore common R files
 .Rproj.user
