@@ -1,6 +1,4 @@
 # Metadata
 Organize and store documentation and metadata in this folder.
 
-| Data Layer | Metadata |
-| ---------- | -------- |
-| CHaMP_Data_MFJD.shp | MFJD_Variables.pdf |
+Metadata files should be listed for relevant data sources in [data_metadata.csv](../data_metadata.csv)

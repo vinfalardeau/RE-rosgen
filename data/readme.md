@@ -6,6 +6,7 @@ Complete the [data_metadata.csv](data_metadata.csv) file indexing each data file
 - path
 - name
 - format
-- sources, where sources may be the original data provider for raw data, or the raw files from which data was derived for cleaned data.
+- sources, where sources may be the original data provider for raw data, or the raw files from which data was derived for cleaned data. List multiple sources with a semicolon separator.
+- metadata: files stored in `data/metadata` folder. List each metadata document associated with each data file. List multiple metadata files with semicolon separators.
 
 Researchers are strongly encouraged to include additional metadata alongside raw data sources.
