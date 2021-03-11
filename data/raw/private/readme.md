@@ -11,4 +11,3 @@ Store raw data in this folder as it is collected or downloaded if the data canno
 - Please download the following data files to your rosgenrr/data/raw/private folder and unzip their contents in the same rosgenrr/data/raw/private folder.
   - https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip
   - https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip
-  - https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShedHS.zip
