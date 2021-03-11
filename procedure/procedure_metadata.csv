@@ -1,6 +1,4 @@
 Directory,File Name,Purpose
-protocol,1-StartingInGrass.pdf,Create GRASS Project
-protocol,2-Digitizing.pdf,Digitize Streams
-protocol,3-TransectsProfiles.pdf,Analyze Transects and Profiles
-protocol,4-Classifying.pdf,Classify Streams at Rosgen 2nd Level
-code,TransectProfileViewer.Rmd,R Notebook for implementing 3-TransectsProfiles and 4-Classifying
+protocol,1-Research_Protocol_GRASS.pdf,Create GRASS Project
+code,TransectProfileViewer.Rmd,R Notebook for visualizing transects
+protocol,3-Classifying.pdf,Classify Streams at Rosgen 2nd Level
