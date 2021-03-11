@@ -9,6 +9,8 @@ This is the John Day River watershed LiDAR DEM. The LiDAR dataset is a 1 m resol
 
 LiDAR data and the associated metadata were downloaded from the Oregon Department of Geology and Mineral Industries (DOGAMI) data portal at [https://gis.dogami.oregon.gov/maps/lidarviewer/](https://gis.dogami.oregon.gov/maps/lidarviewer/).
 
+Download into the `data/raw/private` directory from https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed.zip
+
 ## JohnDayWShed_Ortho
 
 This dataset is a National Agricultural Imagery Program (NAIP) 4-Band 8 Bit image from 2016. NAIP aerial imagery is acquired during the agricultural growing season, across the continental USA. The program is run by the United States Department of Agriculture’s Farm Service Agency. Orthoimages feature 1 m resolution and the red, green, blue, and near infrared spectral bands.
@@ -17,6 +19,8 @@ This dataset was accessed through the NOAA Data Access Viewer website (https://c
 
 ![area of interest](aoi.jpg) 
 Figure 1. State of Oregon, USA, with the Middle Fork John Day River outlined in black. The green dots within the watershed boundary show the location of the Columbia Habitat Monitoring Program (CHaMP) data points provided for this project.
+
+Download into the `data/raw/private` directory from https://geography.middlebury.edu/jholler/data/rosgenrr/JohnDayWShed_OrthoPrj.zip
 
 ## CHaMP_Data_MFJD
 
