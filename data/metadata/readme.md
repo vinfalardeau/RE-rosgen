@@ -15,7 +15,7 @@ This dataset is a National Agricultural Imagery Program (NAIP) 4-Band 8 Bit imag
 
 This dataset was accessed through the NOAA Data Access Viewer website (https://coast.noaa.gov/dataviewer/?#/), which contains imagery, land cover, and elevation/LiDAR data for portions of the United States. Data was clipped to the extent of the LiDAR DEM to allow for easier sharing of the dataset.
 
-!(area of interest)[aoi.jpg] 
+![area of interest](aoi.jpg) 
 Figure 1. State of Oregon, USA, with the Middle Fork John Day River outlined in black. The green dots within the watershed boundary show the location of the Columbia Habitat Monitoring Program (CHaMP) data points provided for this project.
 
 ## CHaMP_Data_MFJD
