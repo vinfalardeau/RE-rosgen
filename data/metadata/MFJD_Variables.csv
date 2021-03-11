@@ -1,0 +1,37 @@
+Variable Name,Description
+FID,Unique Feature Identifier
+Shape *,Esri Vector Type
+VisitID,Unique Visit Record Identifier
+Stream_x,Designated Stream Name
+Year,Year Data Was Recorded
+Area_Bf,Area of the stream at the bankfull stage (square meters)
+BfVol,Volume of the stream at the bankfull stage (cubic meter)
+BfWDRat_Av,Average width:depth ratio at bankfull (unitless)
+BfWDRat_CV,Coefficient of variation of the width:depth ratio at bankfull (unitless)
+BfWdth_Avg,Average width at bankfull stage (meters)
+BfWdth_CV,Coefficient of variation of the width at bankfull stage (meters)
+DpthBf_Avg,Average depth at bankfull stage (meters)
+DpthBf_Max,Maximum depth at bankfull stage (meters)
+Grad,Gradient (slope) of the stream (%)
+Q,Discharge of the stream at the time of the visit (cubic meters per second)
+Sin,Sinuosity (unitless)
+SubD16,Grain size in which 16% of the grains (in volume) are finer (millimeters)
+SubD50,Grain size in which 50% of the grains (in volume) are finer (millimeters)
+SubD84,Grain size in which 84% of the grains (in volume) are finer (millimeters)
+UTMZone,Universal Transverse Mercator zone designation
+Latitude,Latitude of the station
+Longitude,Longitude of the station
+Elevation,Elevation of the station (meters above mean sea level)
+OwnerType,Public or private land designation
+Strah,Strahler stream order designation
+ValleyClss,Valley type classification
+ChannelTyp,Type of channel form classification
+DistClass,Disturbance type classification
+NatClass,"Natural (climatic, landscape) description and classification"
+PriBedClss,Primary bed type classification
+CUMDRAINAG,Cumulative drainage area above the station (square meters)
+UTM_Eastin,Universal Transverse Mercator easting value
+UTM_Northi,Universal Transverse Mercator northing value
+FinalRosge,Final Rosgen Stream Classification based on Kasprak et al. (2016)
+River_Styl,Final River Styles Framework Classification based on Kasprak et al. (2016)
+Beechie,Final Natural Channel Classification based on Kasprak et al. (2016)
