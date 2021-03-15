@@ -122,7 +122,7 @@ Figures to Include:
 
 Table 1. Site Measurements
 | Variable | Value | Source |
-| -- | -- | -- |
+| :-: | :-: | :-: |
 | Bankfull Width | | |
 | Bankfull Depth | | |
 | Valley Width | | |
@@ -133,7 +133,7 @@ Table 1. Site Measurements
 
 Table 2. Rosgen Level I Classification
 | Criteria | Value |
-| -- | -- |
+| :-: | :-: |
 | Entrenchment Ratio | -- |
 | Width / Depth Ratio | -- |
 | Sinuosity | -- |
@@ -141,7 +141,7 @@ Table 2. Rosgen Level I Classification
 
 Table 3. Rosgen Level II Classification
 | Criteria | Value |
-| -- | -- |
+| :-: | :-: |
 | Slope | -- |
 | Channel Material | -- |
 | Level II Stream Type | -- |
