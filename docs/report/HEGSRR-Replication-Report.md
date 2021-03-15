@@ -46,17 +46,17 @@ Describe the data used in the original study. If sampling was used, provide deta
    -	For research that did not involve human subjects, include information about sample collection, duration of data gathering efforts, source or location of samples
    -	For studies in which sample location is obfuscated, explain the motivation for the obfuscation and identify the type of geographic masking technique that was used.  
 2. Describe the spatial sampling design used during data collection
-   1.	Identify the design of the spatial sample (e.g., stratified random sample)
-   1.	Identify the size of the sample, and how many observations will be collected in different geographic strata or levels if using a stratified, clustered, or multilevel design.
-   1.	If a termination rule was used, identify the relevant criteria, original authors’ motivation, and how the rule was implemented. 
+   -	Identify the design of the spatial sample (e.g., stratified random sample)
+   -	Identify the size of the sample, and how many observations will be collected in different geographic strata or levels if using a stratified, clustered, or multilevel design.
+   -	If a termination rule was used, identify the relevant criteria, original authors’ motivation, and how the rule was implemented. 
 3. Describe any secondary dataset(s), or sub-set(s) of those datasets, used in the original study.
-   1.	Explain how the data was acquired by the original authors including – source (with DOI if possible), data of access
-   1.	If selected datasets or sub-sets cover only portions of the overall study area or study period, clearly identify which datasets are associated with which locations and times.
-   c.	Explain how the data was acquired by the original authors including – source, data of access
+   -	Explain how the data was acquired by the original authors including – source (with DOI if possible), data of access
+   -	If selected datasets or sub-sets cover only portions of the overall study area or study period, clearly identify which datasets are associated with which locations and times.
+   -	Explain how the data was acquired by the original authors including – source, data of access
 4. Describe if/how the original study excluded or adjusted the initial dataset
-   a.	Identify any data that was excluded from the original analysis report –reason for exclusion, exclusion criteria, sample size before and after exclusion, location of excluded data (e.g., is exclusion likely to reduce/eliminate coverage in a particular sub-region)
-   b.	Explain how the original authors addressed missing data and details about any interpolation procedures used by the authors.
-   c.	Describe any sample weighting that was used in the original study. Separately identify an spatial component used in the weighting scheme.
+   -	Identify any data that was excluded from the original analysis report –reason for exclusion, exclusion criteria, sample size before and after exclusion, location of excluded data (e.g., is exclusion likely to reduce/eliminate coverage in a particular sub-region)
+   -	Explain how the original authors addressed missing data and details about any interpolation procedures used by the authors.
+   -	Describe any sample weighting that was used in the original study. Separately identify an spatial component used in the weighting scheme.
 
 ### Variables
 
@@ -64,13 +64,13 @@ Describe the variables used in the original study to address the research questi
 
 1. Identify any experimentally manipulated variables and include details about how these variables were manipulated during the original study.
 2. Identify any measured variables examined in the original study
-   a.	Identify both the response(s) and predictor variable(s) associated with each hypothesis
-   b.	Describe any variable transformations (e.g., log-scaled, categorical) 
-   c.	Describe any spatial aggregation/disaggregation that was applied to any variables
+   -	Identify both the response(s) and predictor variable(s) associated with each hypothesis
+   -	Describe any variable transformations (e.g., log-scaled, categorical) 
+   -	Describe any spatial aggregation/disaggregation that was applied to any variables
 3. Describe any adjustments made to the variables to account for 
-   a.	first-order spatial effects (sub-regional differences in means)
-   b.	second-order spatial effects (spatial dependencies)
-   c.	spatial anisotropies (directional trends)
+   -	first-order spatial effects (sub-regional differences in means)
+   -	second-order spatial effects (spatial dependencies)
+   -	spatial anisotropies (directional trends)
 
 ### Analytical Specification
 
@@ -79,15 +79,15 @@ Describe the exact analytical specification that was used to test each hypothesi
 2. Identify the coordinate system(s) and projection(s) used during the original analysis
 3. Specify if/how edge effects were addressed. Provide details regarding the extent of any buffer or guard areas used.
 4. Describe the type of model, the specification of that model, distributional assumptions of the model, and any post-hoc analyses used to test each hypothesis. Key aspects of some common geographical analyses include:
-   a. If a spatial weighting scheme was used, provide a functional description of that scheme
-   b. If a spatial model was used, provide detailed description of that model
-   c. If a classifier was used, provide details about the selection of training data, validation data, and if any independent test data
-   d. If a spatial multi-level model was used, identify the spatial scale of each level, the variable included at each level, and the levels any spatial structures or cross-scale structure are estimated at.
+   - If a spatial weighting scheme was used, provide a functional description of that scheme
+   - If a spatial model was used, provide detailed description of that model
+   - If a classifier was used, provide details about the selection of training data, validation data, and if any independent test data
+   - If a spatial multi-level model was used, identify the spatial scale of each level, the variable included at each level, and the levels any spatial structures or cross-scale structure are estimated at.
 Inference Criteria, Results, and Robustness: For each separate hypothesis, provide a description of the results of the original study and the relevant inference criteria and robustness checks
 1. Describe the specific criteria (e.g., p-values, effect size, model fit) and thresholds that were used to make inferences. 
-   a.	Identify any adjustments made for multiple testing (e.g., Bonferroni, Sidak) and how they were implemented.
+   -	Identify any adjustments made for multiple testing (e.g., Bonferroni, Sidak) and how they were implemented.
 2. Describe the result associated with each hypothesis. 
-   a.	Identify the size and direction of the effect, measure of variance of the effect, statistical assessments 
+   -	Identify the size and direction of the effect, measure of variance of the effect, statistical assessments 
 3. Describe any robustness checks that were completed to assess the strength and reliability of inferences for each hypothesis. Identify any spatial components varied during robustness checks. 
 
 ## Materials and Procedure
@@ -110,15 +110,16 @@ Assessment Criteria: Identify the criteria that will define whether the replicat
 For each hypothesis examined, present separately the results of the replication attempt. 
 1.	Briefly describe how the replication protocol outlined above was implemented reporting key information (e.g., sample size).
 2.	State whether the original hypothesis was or was not supported by the replication
-a.	Provide key statistics produced by the replication.
-b.	Provide key measures (e.g., matching effect direction/size, significance) used to make the decision.
-c.	Highlight any contradictory results with a brief explanation
+   - Provide key statistics produced by the replication.
+   - Provide key measures (e.g., matching effect direction/size, significance) used to make the decision.
+   - Highlight any contradictory results with a brief explanation
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
 Figures to Include:
 - Maps of the longitudinal profile plot with the three different digitization attempts
 - Close up plot where you found the flood-prone width
 
+Tables to Include:
 
 Table 1. Site Measurements
 | Variable | Value | Source |
@@ -154,7 +155,7 @@ Identify and describe any unplanned deviations from the original replication pro
 
 Provide a summary the key findings of the replication along with any limitations or areas in need of further investigation. If the attempt was a failure, discuss possible causes of the failure. Practical Causes – related to lack of data, code, details in the original analysis; Informative Causes – related to absence of effect, change in population, or location. 
 
-  - Response to the following prompt: Quantifying uncertainty in geomorphic systems and in GIScience is of paramount importance, not only for creating error bars on a graph, but for realistically communicating the reliability and legitimacy of an output dataset. Error bars do not (necessarily) reflect on the researcher. They stem from collection constraints, processing constraints, subjective decision making, and many, many more sources. Given what you have learned in this module, discuss three sources of uncertainty that could impact the classification of your stream. Where does it stem from? Why is it a problem? What could be done to fix it or reduce it? In a perfect world, how could this uncertainty be removed?
+- Response to the following prompt: Quantifying uncertainty in geomorphic systems and in GIScience is of paramount importance, not only for creating error bars on a graph, but for realistically communicating the reliability and legitimacy of an output dataset. Error bars do not (necessarily) reflect on the researcher. They stem from collection constraints, processing constraints, subjective decision making, and many, many more sources. Given what you have learned in this module, discuss three sources of uncertainty that could impact the classification of your stream. Where does it stem from? Why is it a problem? What could be done to fix it or reduce it? In a perfect world, how could this uncertainty be removed?
 
 
 ## References
