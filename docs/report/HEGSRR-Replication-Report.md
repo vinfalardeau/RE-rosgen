@@ -94,16 +94,18 @@ Inference Criteria, Results, and Robustness: For each separate hypothesis, provi
 
 Describe how the replication study will be implemented and identify any materials and procedures used to complete the replication. 
 1.	For computational studies include information about the hardware and software environments of both the original study and the replication attempt. 
+
 Protocol: Explain how the analysis of the replication will proceed and identify if the analysis plan will match the original study. For many replications this section may be quite short if the procedures used in the original analyses are followed closely. In those cases, this section can simply explain how key elements will be followed. 
+
 Differences from the Original Study: Identify any ways in which the replication is planned to depart from the original study -- a) location, b) sampling, c) data, d) measures/variable construction, d) analytical techniques.
 1.	Provide the motivation for each change that is made to the original study.
 2.	State how the differences identified above may influence the expected size/direction of the effect of the original study
 3.	List any testable hypotheses associated with each change. If a hypothesis is directional, state the direction
 4.	Outline any initial analyses that were taken to assess whether the differences identified above will influence the outcome of the replication attempt. 
-Assessment Criteria: Identify the criteria that will define whether the replication attempt was successful (e.g., matched statistical significance, direction of effect, similar magnitude of effect)
 
-  - Reproducible documentation of methods, where documentation includes:
-  - Annotated flowchart of final parameter values (use last page of RSC_EPA_2005 PDF)
+Assessment Criteria: Identify the criteria that will define whether the replication attempt was successful (e.g., matched statistical significance, direction of effect, similar magnitude of effect)
+- Reproducible documentation of methods, where documentation includes:
+- Annotated flowchart of final parameter values (use last page of RSC_EPA_2005 PDF)
 
 ## Replication Results
 
