@@ -42,16 +42,16 @@ Include a reference map of the stream reach point you will analyze.
 
 Describe the data used in the original study. If sampling was used, provide details about the sampling design and how it was implemented.
 1. Describe how sampled data relevant to the hypotheses being re-examined was collected by the original authors.
-   a.	For human subjects research, include the population from which subjects were sampled, location of sampling, recruitment details, payments for participation, eligibility criteria (e.g. inclusion and exclusion rules), and sampling timeline. 
-   b.	For research that did not involve human subjects, include information about sample collection, duration of data gathering efforts, source or location of samples
-   c.	For studies in which sample location is obfuscated, explain the motivation for the obfuscation and identify the type of geographic masking technique that was used.  
+   -	For human subjects research, include the population from which subjects were sampled, location of sampling, recruitment details, payments for participation, eligibility criteria (e.g. inclusion and exclusion rules), and sampling timeline. 
+   -	For research that did not involve human subjects, include information about sample collection, duration of data gathering efforts, source or location of samples
+   -	For studies in which sample location is obfuscated, explain the motivation for the obfuscation and identify the type of geographic masking technique that was used.  
 2. Describe the spatial sampling design used during data collection
-   a.	Identify the design of the spatial sample (e.g., stratified random sample)
-   b.	Identify the size of the sample, and how many observations will be collected in different geographic strata or levels if using a stratified, clustered, or multilevel design.
-   c.	If a termination rule was used, identify the relevant criteria, original authors’ motivation, and how the rule was implemented. 
+   1.	Identify the design of the spatial sample (e.g., stratified random sample)
+   1.	Identify the size of the sample, and how many observations will be collected in different geographic strata or levels if using a stratified, clustered, or multilevel design.
+   1.	If a termination rule was used, identify the relevant criteria, original authors’ motivation, and how the rule was implemented. 
 3. Describe any secondary dataset(s), or sub-set(s) of those datasets, used in the original study.
-   a.	Explain how the data was acquired by the original authors including – source (with DOI if possible), data of access
-   b.	If selected datasets or sub-sets cover only portions of the overall study area or study period, clearly identify which datasets are associated with which locations and times.
+   1.	Explain how the data was acquired by the original authors including – source (with DOI if possible), data of access
+   1.	If selected datasets or sub-sets cover only portions of the overall study area or study period, clearly identify which datasets are associated with which locations and times.
    c.	Explain how the data was acquired by the original authors including – source, data of access
 4. Describe if/how the original study excluded or adjusted the initial dataset
    a.	Identify any data that was excluded from the original analysis report –reason for exclusion, exclusion criteria, sample size before and after exclusion, location of excluded data (e.g., is exclusion likely to reduce/eliminate coverage in a particular sub-region)
