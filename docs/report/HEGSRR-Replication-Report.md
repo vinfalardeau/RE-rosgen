@@ -155,16 +155,19 @@ Identify and describe any unplanned deviations from the original replication pro
 
 ## Discussion
 
-Provide a summary the key findings of the replication along with any limitations or areas in need of further investigation. If the attempt was a failure, discuss possible causes of the failure. Practical Causes – related to lack of data, code, details in the original analysis; Informative Causes – related to absence of effect, change in population, or location. 
+Provide a summary the key findings of the replication along with any limitations or areas in need of further investigation. If the attempt was a failure, discuss possible causes of the failure. These may include:
+- Practical Causes – related to lack of data, code, details in the original analysis
+- Informative Causes – related to absence of effect, change in population, or location. 
 
-- Response to the following prompt: Quantifying uncertainty in geomorphic systems and in GIScience is of paramount importance, not only for creating error bars on a graph, but for realistically communicating the reliability and legitimacy of an output dataset. Error bars do not (necessarily) reflect on the researcher. They stem from collection constraints, processing constraints, subjective decision making, and many, many more sources. Given what you have learned in this module, discuss three sources of uncertainty that could impact the classification of your stream. Where does it stem from? Why is it a problem? What could be done to fix it or reduce it? In a perfect world, how could this uncertainty be removed?
+Discuss an interpretation of your results.
+- Were the Level I and Level II results internally and logically consistent? That is, did all the parameters for the identified stream type conform to expectations outlined in Rosgen?
+- Were your results consistent with previous evaluations of the same stream reach reported by Kasperak et al?
 
+Discuss a response to the following prompt: Quantifying uncertainty in geomorphic systems and in GIScience is of paramount importance, not only for creating error bars on a graph, but for realistically communicating the reliability and legitimacy of an output dataset. Error bars do not (necessarily) reflect on the researcher. They stem from collection constraints, processing constraints, subjective decision making, and many, many more sources. Given what you have learned in this module, discuss at least three sources of error and uncertainty and how they could impact the classification of your stream. Where does uncertainty stem from? Why is uncertainty a problem? What could be done (or has been done) to fix or reduce uncertainty? In a perfect world, how could this uncertainty be removed?
 
 ## References
 
-Include any referenced studies or materials
-
-
+Include any referenced studies or materials in the [AAG Style of author-date referencing](https://www.tandf.co.uk//journals/authors/style/reference/tf_USChicagoB.pdf).
 
 ####  Report Template References & License
 
