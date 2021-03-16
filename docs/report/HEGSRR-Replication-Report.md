@@ -118,8 +118,10 @@ For each hypothesis examined, present separately the results of the replication 
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
 Figures to Include:
-- Maps of the longitudinal profile plot with the three different digitization attempts
-- Close up plot where you found the flood-prone width
+- Map of the study site, stream/river centerline, valley centerline, and shaded elevation
+- Map of the study site, stream/river centerline, valley centerline, and slope.
+- Longitudinal profile graph with elevation and slope
+- Cross-sectional profile graph
 
 Tables to Include:
 
@@ -155,7 +157,7 @@ Identify and describe any unplanned deviations from the original replication pro
 
 ## Discussion
 
-Provide a summary the key findings of the replication along with any limitations or areas in need of further investigation. If the attempt was a failure, discuss possible causes of the failure. These may include:
+Provide a summary and interpretation of the key findings of the replication. If the attempt was a failure, discuss possible causes of the failure. These may include:
 - Practical Causes – related to lack of data, code, details in the original analysis
 - Informative Causes – related to absence of effect, change in population, or location. 
 
