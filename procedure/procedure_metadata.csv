@@ -1,4 +1,4 @@
 Directory,File Name,Purpose
 protocol,1-Research_Protocol_GRASS.pdf,Create GRASS Project
-code,TransectProfileViewer.Rmd,R Notebook for visualizing transects
+code,2-ProfileViewer.Rmd,R Notebook for visualizing longitudinal profiles and transect profiles
 protocol,3-Classifying.pdf,Classify Streams at Rosgen 2nd Level

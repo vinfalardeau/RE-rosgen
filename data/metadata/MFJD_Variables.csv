@@ -35,3 +35,7 @@ UTM_Northi,Universal Transverse Mercator northing value
 FinalRosge,Final Rosgen Stream Classification based on Kasprak et al. (2016)
 River_Styl,Final River Styles Framework Classification based on Kasprak et al. (2016)
 Beechie,Final Natural Channel Classification based on Kasprak et al. (2016)
+ortho,"Site is covered by orthophotography data (1 = yes, 0 = no)"
+loc_x,X-coordinate of the location in UTM 11 North (meters)
+loc_y,Y-coordinate of the location in UTM 11 North (meters)
+loc_id,Unique integer ID for each location. Locations may have up to 7 features for stream assessments at different times.
