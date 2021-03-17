@@ -118,8 +118,10 @@ For each hypothesis examined, present separately the results of the replication 
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
 Figures to Include:
-- Map of the study site, stream/river centerline, valley centerline, and shaded elevation
-- Map of the study site, stream/river centerline, valley centerline, and slope.
+- map of the study site shaded elevation
+- map of the study site slope
+- Map of the study site stream/river centerlines and final mean centerline
+- Map of the study site valley centerlines and final mean centerline
 - Longitudinal profile graph with elevation and slope
 - Cross-sectional profile graph
 
