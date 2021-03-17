@@ -1,6 +1,8 @@
 ---
 title: "ProfileViewing"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 This RStudio notebook accompanies the Transects and Profiles handout and the Classification handout. In this notebook, you will import the data you generated using the "v.out.ascii" tool in GRASS to visualize and analyze it here. Then you will calculate average slope for each of your digitized and extracted centerlines. Finally, you will calculate and measure the width of the flood-prone area to use in the entrenchment ratio calculation.
