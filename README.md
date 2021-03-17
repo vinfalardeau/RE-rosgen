@@ -2,8 +2,6 @@
 
 Research activity applying reproducibility principles to a GIS-based implementation of Rosgen Stream Classification.
 
-Please **view online only** while this repository is still in development.
-
 # Templates for Reproducible and Replicable Research
 
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The folder structure presented here can be used to
