@@ -3,7 +3,7 @@ title: "ProfileViewing"
 output: html_notebook
 ---
 
-This RStudio notebook accompanies the Transects and Profiles handout and the Classification handout. In this notebook, you will import the data you generated using the "v.out.ascii" tool in GRASS to visualize and analyze it here. Some packages, like the "readxl" package, are not necessary and can be commented out if you do not need to import a .xlsx file. Then you will calculate average slope for each of your digitized and extracted centerlines. Finally, you will calculate and measure the width of the flood-prone area to use in the entrenchment ratio calculation.
+This RStudio notebook accompanies the Transects and Profiles handout and the Classification handout. In this notebook, you will import the data you generated using the "v.out.ascii" tool in GRASS to visualize and analyze it here. Then you will calculate average slope for each of your digitized and extracted centerlines. Finally, you will calculate and measure the width of the flood-prone area to use in the entrenchment ratio calculation.
 
 Feel free to email with any questions!
 Zach Hilgendorf
@@ -42,8 +42,20 @@ ggplot(CrossProf) +
 ```
 
 ```{r}
-# The purpose of this chunk is to compute the slope of the longitudinal profile (between points) and the average slope of the line. We will use the "dplyr" package for part of this.
+#run this codeblock if the Cross-sectional profile looked backwards, then rerun the graphing codeblock above
+maxd <- max(CrossProf$Distance, na.rm=TRUE) #finds maximum distance
+CrossProf$Distance <- maxd-CrossProf$Distance  #inverts distance axis by subtracting distances from max
 
+```
+
+```{r}
+#run this codeblock if the Longitudinal profile looked backwards, then rerun the graphing codeblock above
+maxd <- max(LongProf$Distance, na.rm=TRUE) #finds maximum distance
+LongProf$Distance <- maxd-LongProf$Distance  #inverts distance axis by subtracting distances from max
+```
+
+```{r}
+# The purpose of this chunk is to compute the slope of the longitudinal profile (between points) and the average slope 
 LongProf <- LongProf %>% # The "%>%" is called "piping" and it essentially allows us to take the output of a function and sequentially feed it to the next argument. This is very useful for subsetting and tacking on new columns with output data!
   #group_by(Attempt) %>% # Here we are subsetting the data based on the attempt number (1-3). 
   mutate(Slope = (abs(((Elevation - lag(Elevation))/(Distance - lag(Distance))*100)))) # Create a column for slope (Change in Vertical Position/Change in Horizontal Position) with absolute values that is relative to the Attempt
@@ -69,7 +81,7 @@ LongProf %>%
   summarize(Slope = mean(Slope, na.rm = TRUE)) #This calculates the mean slope, based on the Attempt.
 
 # Now we want to figure out the width of the flood-prone area.
-DpthBf_Max <- 8 # Insert the maximum bankfull depth from your CHaMPS point attributes here, replacing the 8 left of the hash #
+DpthBf_Max <- 8 # Insert the maximum bankfull depth from your point/reach of interest here, replacing the 8 left of the hash #
 
 CrossProf[which.min(CrossProf$Elevation),] # This finds the minimum elevation, which should correspond to the lowest elevation in the stream channel, and reports the entire row. That part is essential! Double check the reported value with one of the plots you have made before to verify.
 StreamElev <- min(CrossProf$Elevation) # This stores the minimum elevation that you found in the previous step.

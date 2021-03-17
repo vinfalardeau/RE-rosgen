@@ -1,10 +1,11 @@
-# rosgenrr
+# RE-rosgen
 
 Research activity applying reproducibility principles to a GIS-based implementation of Rosgen Stream Classification.
 
 Please **view online only** while this repository is still in development.
 
 # Templates for Reproducible and Replicable Research
+
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The folder structure presented here can be used to
 
 1. pre-register, document, and share original research, or
@@ -16,17 +17,24 @@ An overview of the folder structure of this repository is provided below. The `R
 
     Reproduction of <Study Name>
     |- docs/           # study documentation
-    |  +- report/      # reproduction plan, reproduction report
+    |  +- instruction/ # materials for teaching
     |  +- manuscript/  # manuscript components
+    |  +- presentation/# materials for teaching
+    |  +- report/      # preanalysis plan, reproduction/replication report
     |
-    |- data            # raw data, which are not changed once created
+    |- data/           # raw data, which are not changed once created
     |  +- raw/         # raw data, will not be altered
+    |  	  +- private/  # for private/confidential data or data too large to version control
+	|  	  +- private/  # for public data to be version controlled
     |  +- derived/     # derived data, will not be altered once created
-    |  +- scratch/     # temporary files that can be safely deleted or lost
+    |  	  +- private/  # for private/confidential data or data too large to version control
+	|  	  +- private/  # for public data to be version controlled
+    |  +- scratch/     # temporary files that can be safely deleted or lost; no version control
     |  +- metadata/    # documentation of metadata
     |
-    |-procedure
+    |- procedure/      # methods documentation
     |  +- code/        # any programmatic code, clearly named and commented
+    |  +- environment/ # documentation of the hardware and software environment
     |  +- protocols/   # any non-computational protocols
     |
     |- results         # all output from workflows and analyses
@@ -38,8 +46,10 @@ An overview of the folder structure of this repository is provided below. The `R
     |- study.Rmd       # executable Rmarkdown , if applicable
     |- Makefile        # executable Makefile, if applicable
     |- study.Rproj     # RStudio project, if applicable
+	|- .gitignore      # Git Ignore instructions to ignore systems files, private data, and scratch data
 
 ## Reproducible Research Practices
+
 Every research project is different. This repository is designed to serve as a flexible guide capable of structuring work completed throughout the lifecycle of different types of research project. No matter the project type, a few key suggested practices when using this repository include:
 
 - Keeping original, raw data in the `data/raw` folder. Do not alter that file during data analysis.
@@ -54,5 +64,6 @@ Every research project is different. This repository is designed to serve as a f
 - Maintaining a formal metadata descriptor at the root of the package that describes all the important input and output data files.
 
 ## References
+
 The structure of this repository closely follows the excellent [rr-init](https://github.com/Reproducible-Science-Curriculum/rr-init) repository, which in turn follows Nobel [(2009)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424). We have also incorporated structural ideas from [Gandrud (2015)](http://christophergandrud.github.io/RepResR-RStudio/) and Camerer et al. ([2016](https://osf.io/pfdyw/), [2018](https://osf.io/bzm54/)).  Reference information related to the **Pre-registration Template** and **Replication Report Template** is included in the `/docs` folder.
 

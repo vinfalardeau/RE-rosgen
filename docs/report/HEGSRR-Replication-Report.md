@@ -56,11 +56,11 @@ Describe the data used in the original study. If sampling was used, provide deta
 4. Describe if/how the original study excluded or adjusted the initial dataset
    -	Identify any data that was excluded from the original analysis report –reason for exclusion, exclusion criteria, sample size before and after exclusion, location of excluded data (e.g., is exclusion likely to reduce/eliminate coverage in a particular sub-region)
    -	Explain how the original authors addressed missing data and details about any interpolation procedures used by the authors.
-   -	Describe any sample weighting that was used in the original study. Separately identify an spatial component used in the weighting scheme.
+   -	Describe any sample weighting that was used in the original study. Separately identify any spatial component used in the weighting scheme.
 
 ### Variables
 
-Describe the variables used in the original study to address the research questions and hypotheses that are the focus of the replication
+Describe the variables used in the original study to address the research questions and hypotheses that are the focus of the replication.
 
 1. Identify any experimentally manipulated variables and include details about how these variables were manipulated during the original study.
 2. Identify any measured variables examined in the original study
@@ -151,13 +151,14 @@ Table 3. Rosgen Level II Classification
 | Channel Material | -- |
 | Level II Stream Type | -- |
 
+
 ## Unplanned Deviations from the Protocol
 
 Identify and describe any unplanned deviations from the original replication protocol the occurred during the course of the replication. Explain the rationale behind any deviations. Finally, provide the details and results of any sensitivity analyses conducted to assess whether these deviations may have impacted the results of the replication.
 
 ## Discussion
 
-Provide a summary and interpretation of the key findings of the replication. If the attempt was a failure, discuss possible causes of the failure. These may include:
+Provide a summary and interpretation of the key findings of the replication *vis-a-vis* the original study results. If the attempt was a failure, discuss possible causes of the failure. These may include:
 - Practical Causes – related to lack of data, code, details in the original analysis
 - Informative Causes – related to absence of effect, change in population, or location. 
 
