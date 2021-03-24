@@ -73,7 +73,7 @@ ggplot(LongProf) +
        geom_line(size = 2) + # The "size" argument allows us to increase or decrease our point size.
        scale_color_gradient(low = "gray", high = "red") +
        theme_light() +
-       labs(x = "Distance along the river profile (m)", y = "Elevation (masl)", title = "Longitudinal Profile of Extracted Reach")
+       labs(x = "Distance along the river profile (m)", y = "Elevation (masl)", title = "Longitudinal Profile of the Extracted Reach", color = "Slope %")
 ```
 
 ```{r}
@@ -94,17 +94,21 @@ ggplot(CrossProf) +
        aes(x = Distance, y = Elevation, color = Elevation) +
        geom_line() +
        geom_hline(yintercept = MaxBFx2Elev) + # This adds a horizontal line at a prescribed location. In this case, we are drawing a line at twice the maximum bankfull depth.
+       #xlim(100, 400)+
+      # ylim(1170, 1175)+
        scale_color_gradient(low = "green", high = "brown") +
        labs(x = "Distance along the transect (m)", y = "Elevation (masl)", title = "Cross-Sectional Profile of Valley Near CHaMP Point")
 
 ggplot(CrossProf) +
-       aes(x = Distance, y = Elevation, color = Elevation) +
-       geom_point() + # Point chosen here to allow easier determining of the width (points are horizontally spaced by 1 meter)
+       aes(x = Distance, y = Elevation)+ # , color = Elevation) +
+       geom_point(color = "darkblue") + # Point chosen here to allow easier determining of the width (points are horizontally spaced by 1 meter)
        geom_hline(yintercept = MaxBFx2Elev) +
        xlim(120,230) + # Sets the x-axis limits. Adjust this value as you zoom in to the correct area.
-       ylim(1170,1175) + # Sets the y-axis limits. Adjust this value as you zoom in to the correct area.
-       scale_color_gradient(low = "green", high = "brown") +
-       labs(x = "Distance along the transect (m)", y = "Elevation (masl)", title = "Determining the Flood-Prone Width")
+       ylim(1169,1174) + # Sets the y-axis limits. Adjust this value as you zoom in to the correct area.
+       # scale_color_gradient(low = "green", high = "brown") +
+       annotate("text", x=207, y=1169.7, label= "*channel location") + 
+       annotate("text",x=160,y=1172.05, label="flood-prone elevation")+
+       labs(x = "Distance along the transect (m)", y = "Elevation (masl)", title = "Cross-Sectional Profile of the Flood-Prone Part of the Valley")
 
 #Use the last plot, points, and horizontal line to get an approximate distance of the flood-prone area. Keep for your notes and to include in your classification and report.
 ```
